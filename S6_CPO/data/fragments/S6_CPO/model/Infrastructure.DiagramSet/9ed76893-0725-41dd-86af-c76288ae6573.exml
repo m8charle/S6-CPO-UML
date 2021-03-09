@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="S6_CPO" version="4">
+  <OBJECT>
+    <ID name="S6_CPO" mc="Infrastructure.DiagramSet" uid="9ed76893-0725-41dd-86af-c76288ae6573"/>
+    <PID name="S6_CPO" mc="Standard.Project" uid="616eca4b-ed25-407f-9483-cca33e034764"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[S6_CPO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
