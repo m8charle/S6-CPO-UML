@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="s6_cpo" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use cases" version="4">
   <OBJECT>
-    <ID name="s6_cpo" mc="Standard.Package" uid="cc597bbe-9f25-4248-aeb7-6c1c3455f5ef"/>
+    <ID name="Use cases" mc="Standard.Package" uid="cc597bbe-9f25-4248-aeb7-6c1c3455f5ef"/>
     <PID name="S6_CPO" mc="Standard.Project" uid="616eca4b-ed25-407f-9483-cca33e034764"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,19 +9,19 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[s6_cpo]]></ATT>
+      <ATT name="Name"><![CDATA[Use cases]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="User" mc="Standard.Actor" uid="813b2ccb-8a0a-4359-86c1-2e73b1d7d961"/>
         <COMPID name="Admin" mc="Standard.Actor" uid="ab9f023a-b4bf-4844-b5e8-be07896347bd"/>
+        <COMPID name="Proofreader" mc="Standard.Actor" uid="c1aee6c8-dbaa-4752-a697-dc9659576d03"/>
+        <COMPID name="Visitor" mc="Standard.Actor" uid="a7c441dc-b388-412b-bf5d-bc7ded64452c"/>
         <COMPID name="Authentifiate" mc="Standard.UseCase" uid="77bf6189-10f9-4913-8299-be09c812e907"/>
         <COMPID name="Read course" mc="Standard.UseCase" uid="1e86ada3-d8b2-4e13-88ee-4fb5c0361007"/>
         <COMPID name="Review course" mc="Standard.UseCase" uid="d3c19170-b4df-445f-912a-5a3077bf0be9"/>
         <COMPID name="Delete course" mc="Standard.UseCase" uid="6cd3d0b2-8d0a-4117-bf07-7f31a76dda0d"/>
-        <COMPID name="Edit his courses" mc="Standard.UseCase" uid="a0677cc7-9e37-48d2-9b25-1a5b0ffb9483"/>
-        <COMPID name="Mark course" mc="Standard.UseCase" uid="5e366d69-3488-41d3-aeee-d167f798846e"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="s6_cpo Use Case diagram" mc="Standard.UseCaseDiagram" uid="1083742c-2e8e-40b7-9711-9b60abbf33f8"/>
