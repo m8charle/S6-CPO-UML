@@ -1,0 +1,60 @@
+Légende :
+"Tabulation" => hérite de
+"tabulation ->" => fonction membre
+"tabulation <<" => attribut
+
+
+Liens intéressants :
+https://forum.qt.io/topic/38561/signal-exists/7
+https://forum.qt.io/topic/112701/how-to-find-directory-size/3
+
+CLASSES ====================== GUI
+MainWindow
+ConnectionBox
+FMenuBar //(fold menu bar)
+	LeftMenuBar
+	RightMenuBaR
+SettingsBox
+CourseEditor
+CourseViewer
+
+
+
+
+CLASSES ====================== User
+
+UserProfile
+History
+DownloadedCourses
+Followed
+
+
+
+
+CLASSES ====================== Soft/Local
+
+Settings
+	<< maxCacheSize : qint64 //taille maximale du dossier de téléchargement temporaire (historique ?)
+
+
+
+
+CLASSES ====================== Courses
+
+CourseImage
+	<< name
+	<< legend
+
+Course
+	<< markdownBase : QFile //texte du cours
+	<< images : vector<courseImage>
+
+
+
+
+CLASSES ====================== DB
+(Singleton)DBManager
+	->DownloadCourse
+	->Authentifiate
+	->GetUserProfile
+
