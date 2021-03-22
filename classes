@@ -24,6 +24,9 @@ CourseViewer
 CLASSES ====================== User
 
 UserProfile
+	<< name
+	<< surname
+	<< 
 History
 DownloadedCourses
 Followed
@@ -41,11 +44,17 @@ Settings
 
 CLASSES ====================== Courses
 
+CourseCategory
+	<< ID : ???
+	<< Name : QString
+
 CourseImage
 	<< name
 	<< legend
 
 Course
+	<< ID : ???
+	<< category : ???
 	<< markdownBase : QFile //texte du cours
 	<< images : vector<courseImage>
 
@@ -54,6 +63,7 @@ Course
 
 CLASSES ====================== DB
 (Singleton)DBManager
+	->GetCourseInfo
 	->DownloadCourse
 	->Authentifiate
 	->GetUserProfile
