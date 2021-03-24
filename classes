@@ -24,9 +24,9 @@ CourseViewer
 CLASSES ====================== User
 
 UserProfile
-	<< name
-	<< surname
-	<< 
+	<< name : QString
+	<< surname : QString
+	<< email : QString
 History
 DownloadedCourses
 Followed
@@ -36,8 +36,10 @@ Followed
 
 CLASSES ====================== Soft/Local
 
-Settings
+SoftSettings
 	<< maxCacheSize : qint64 //taille maximale du dossier de téléchargement temporaire (historique ?)
+	<< cachePath : QString
+	<< DownloadPath : QString
 
 
 
@@ -48,17 +50,22 @@ CourseCategory
 	<< ID : ???
 	<< Name : QString
 
+CourseInfo
+	<< category : CourseCategory
+	<< author : UserProfile
+	<< visibility : integer //public, private or non-indexed
+	<< publicationDate : QDate
+	<< editionDate : QDate
+
 CourseImage
-	<< name
-	<< legend
+	<< fileName : QString
+	<< legend : QString
 
 Course
 	<< ID : ???
-	<< category : ???
+	<< infos : CourseInfo
 	<< markdownBase : QFile //texte du cours
 	<< images : vector<courseImage>
-
-
 
 
 CLASSES ====================== DB
