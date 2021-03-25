@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity" version="4">
   <OBJECT>
     <ID name="Activity" mc="Standard.Activity" uid="ba8afd7c-c58d-4954-b017-39d7c6745c3c"/>
-    <PID name="diagramme activite" mc="Standard.Package" uid="7fda9f7a-2273-4752-bf9f-af0bd735957b"/>
+    <PID name="Activity" mc="Standard.Package" uid="7fda9f7a-2273-4752-bf9f-af0bd735957b"/>
     <ATTRIBUTES>
       <ATT name="IsSingleExecution">false</ATT>
       <ATT name="IsReadOnly">false</ATT>
@@ -36,7 +36,7 @@
                     <OBJECT>
                       <ID name="ControlFlow" mc="Standard.ControlFlow" uid="4de424dd-5f5d-467f-ac4a-fe55ee178ab1"/>
                       <ATTRIBUTES>
-                        <ATT name="Guard"><![CDATA[user or history]]></ATT>
+                        <ATT name="Guard"><![CDATA[user]]></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
                         <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -61,6 +61,22 @@
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="Action" mc="Standard.OpaqueAction" uid="d4921684-1b21-4477-82ec-4ed344a465de"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="f8f537da-efa5-4987-ab09-c5e7f4a9a284"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"><![CDATA[categoryChoose(name)]]></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="load Category" mc="Standard.OpaqueAction" uid="45337230-7e5e-41a6-98af-375ac69d4143"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -95,25 +111,9 @@
                       </DEPENDENCIES>
                     </OBJECT>
                     <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="462dd098-fdf9-4bb2-b099-969576e45578"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="acces History and close Menu" mc="Standard.OpaqueAction" uid="59b8d1c3-7e55-44ff-afb7-a1a66eda2041"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
                       <ID name="ControlFlow" mc="Standard.ControlFlow" uid="67c6935b-daef-47dd-bb6b-35ae0d81a582"/>
                       <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
+                        <ATT name="Guard"><![CDATA[connected]]></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
                         <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -143,7 +143,7 @@
                     <OBJECT>
                       <ID name="ControlFlow" mc="Standard.ControlFlow" uid="0e50cd61-fea0-45e6-a844-e2bdb5766eb2"/>
                       <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
+                        <ATT name="Guard"><![CDATA[mySubscription]]></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
                         <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -152,22 +152,6 @@
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="subscriptions" mc="Standard.OpaqueAction" uid="d25fb676-5449-4d49-bae7-2c72708d0352"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="5ad9c5c5-c70c-428d-b7c6-0ceafd7bc125"/>
-                      <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
-                        <ATT name="Weight"><![CDATA[1]]></ATT>
-                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Target">
-                          <REFOBJ>
-                            <ID name="acces History and close Menu" mc="Standard.OpaqueAction" uid="59b8d1c3-7e55-44ff-afb7-a1a66eda2041"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -184,6 +168,22 @@
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="course List" mc="Standard.OpaqueAction" uid="f26831d7-898e-4a73-8a21-4e1b27630f7b"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="80e8939f-95da-4b2e-92bd-9deb35681a93"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"><![CDATA[EditNewCourses]]></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="New Courses" mc="Standard.OpaqueAction" uid="0435db20-3588-4ada-b1e1-95e257a6009f"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -222,20 +222,36 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="acces History and close Menu" mc="Standard.OpaqueAction" uid="59b8d1c3-7e55-44ff-afb7-a1a66eda2041"/>
+                <ID name="course List" mc="Standard.OpaqueAction" uid="f26831d7-898e-4a73-8a21-4e1b27630f7b"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[acces History and close Menu]]></ATT>
+                  <ATT name="Name"><![CDATA[course List]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Outgoing">
                     <OBJECT>
-                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="3667bf02-a60b-4640-b017-d787a6a21912"/>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="e27145a8-311e-47c4-9f35-ebc19bc6a7ee"/>
                       <ATTRIBUTES>
-                        <ATT name="Guard"></ATT>
+                        <ATT name="Guard"><![CDATA[MyCourses and EditCourses(id)]]></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Edit Courses" mc="Standard.OpaqueAction" uid="f15e63fe-6ff5-4bbd-ab09-44df38c41453"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="39e31ed7-9dc4-448b-b279-1d62ea056065"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"><![CDATA[courseChoose(id)]]></ATT>
                         <ATT name="Weight"><![CDATA[1]]></ATT>
                         <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -251,16 +267,145 @@
                   </COMP>
                 </DEPENDENCIES>
               </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Edit Courses" mc="Standard.ActivityPartition" uid="cad7dd7f-eb7e-4f2c-b8cb-9a19533bf25e"/>
+          <ATTRIBUTES>
+            <ATT name="IsDimension">false</ATT>
+            <ATT name="IsExternal">false</ATT>
+            <ATT name="Name"><![CDATA[Edit Courses]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="ContainedNode">
               <OBJECT>
-                <ID name="course List" mc="Standard.OpaqueAction" uid="f26831d7-898e-4a73-8a21-4e1b27630f7b"/>
+                <ID name="New Courses" mc="Standard.OpaqueAction" uid="0435db20-3588-4ada-b1e1-95e257a6009f"/>
                 <ATTRIBUTES>
                   <ATT name="Body"></ATT>
                   <ATT name="IsMultipleInstance">false</ATT>
                   <ATT name="IsCompensation">false</ATT>
-                  <ATT name="Name"><![CDATA[course List]]></ATT>
+                  <ATT name="Name"><![CDATA[New Courses]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="6db27152-4671-4fc9-bd1d-e416a5070b02"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="bd6b110d-19de-4c02-8065-ba9e8cce1731"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Edit Courses" mc="Standard.OpaqueAction" uid="f15e63fe-6ff5-4bbd-ab09-44df38c41453"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[Edit Courses]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="eae92cd7-e237-45f9-a6ae-63040a74143a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="bd6b110d-19de-4c02-8065-ba9e8cce1731"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Save courses" mc="Standard.OpaqueAction" uid="0e04f9a8-bc0a-4b58-8d51-e40a07f077ee"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[Save courses]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Import file" mc="Standard.OpaqueAction" uid="f7f33107-c076-437b-adf0-96b762b90baa"/>
+                <ATTRIBUTES>
+                  <ATT name="Body"></ATT>
+                  <ATT name="IsMultipleInstance">false</ATT>
+                  <ATT name="IsCompensation">false</ATT>
+                  <ATT name="Name"><![CDATA[Import file]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Decision-Merge" mc="Standard.DecisionMergeNode" uid="bd6b110d-19de-4c02-8065-ba9e8cce1731"/>
+                <ATTRIBUTES>
+                  <ATT name="DecisionKind">ExclusiveDecision</ATT>
+                  <ATT name="DecisionInputBehavior"></ATT>
+                  <ATT name="Name"><![CDATA[Decision-Merge]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="a5e2e330-0609-4c0b-8bf4-c50fcfdcc2a4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"><![CDATA[save]]></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Save courses" mc="Standard.OpaqueAction" uid="0e04f9a8-bc0a-4b58-8d51-e40a07f077ee"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="ControlFlow" mc="Standard.ControlFlow" uid="270778db-caab-4a90-9875-f70c2fcbd83d"/>
+                      <ATTRIBUTES>
+                        <ATT name="Guard"><![CDATA[import(file)]]></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Import file" mc="Standard.OpaqueAction" uid="f7f33107-c076-437b-adf0-96b762b90baa"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -455,7 +600,7 @@
               <OBJECT>
                 <ID name="ControlFlow" mc="Standard.ControlFlow" uid="6ce5ed8b-fc4b-4b9f-b986-0fddd85d96bb"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
+                  <ATT name="Guard"><![CDATA[valid connection]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
                   <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -549,6 +694,38 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="4bccb4d0-af3e-40b7-ab80-a15fbcab1e95"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[mark]]></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="newMark" mc="Standard.OpaqueAction" uid="b88a57ef-c108-4520-b576-a791cd0fd3ce"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="1884e09e-bcca-446c-832b-c4c4d97348de"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[subscribe]]></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="newSubscription" mc="Standard.OpaqueAction" uid="58eb5dbc-e5a5-4991-a97b-234b7e7f54f4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
@@ -558,6 +735,39 @@
             <ATT name="IsMultipleInstance">false</ATT>
             <ATT name="IsCompensation">false</ATT>
             <ATT name="Name"><![CDATA[download documents]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="load Category" mc="Standard.OpaqueAction" uid="45337230-7e5e-41a6-98af-375ac69d4143"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[load Category]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="newMark" mc="Standard.OpaqueAction" uid="b88a57ef-c108-4520-b576-a791cd0fd3ce"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[newMark]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="newSubscription" mc="Standard.OpaqueAction" uid="58eb5dbc-e5a5-4991-a97b-234b7e7f54f4"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[newSubscription]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
