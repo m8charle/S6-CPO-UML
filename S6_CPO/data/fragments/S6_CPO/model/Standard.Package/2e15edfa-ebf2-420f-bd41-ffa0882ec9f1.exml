@@ -17,7 +17,6 @@
         <COMPID name="Course" mc="Standard.Class" uid="82fb95b7-9eeb-43f6-855b-cb4d88022921"/>
         <COMPID name="CourseCategory" mc="Standard.Class" uid="a26fcf0b-7abc-4947-a02b-8f56c0bd2037"/>
         <COMPID name="CourseInfo" mc="Standard.Class" uid="c5b784e0-66e6-476d-92eb-a7e4add877a6"/>
-        <COMPID name="CourseImage" mc="Standard.Class" uid="8b3463ab-0002-4da9-b6c4-828a75a67c68"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

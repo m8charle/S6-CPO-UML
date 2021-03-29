@@ -330,7 +330,7 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
@@ -380,23 +380,10 @@
             <COMP relation="Association">
               <COMPID name="" mc="Standard.Association" uid="c9ad3d97-26a4-4594-98f8-25361b2950f4"/>
             </COMP>
-            <COMP relation="ConstraintDefinition">
-              <OBJECT>
-                <ID name="OR" mc="Standard.Constraint" uid="ebf56f6a-fda9-4559-8b4a-1b6a7721a501"/>
-                <ATTRIBUTES>
-                  <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"></ATT>
-                  <ATT name="Language"></ATT>
-                  <ATT name="Name"><![CDATA[OR]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="unloggedHistory" mc="Standard.AssociationEnd" uid="c5ee0489-e35b-4dde-85a8-0c065ca07ebf"/>
+          <ID name="downloaded" mc="Standard.AssociationEnd" uid="c5ee0489-e35b-4dde-85a8-0c065ca07ebf"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -409,7 +396,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[unloggedHistory]]></ATT>
+            <ATT name="Name"><![CDATA[downloaded]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -436,7 +423,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="unloggedHistory" mc="Standard.AssociationEnd" uid="c5ee0489-e35b-4dde-85a8-0c065ca07ebf"/>
+                    <COMPID name="downloaded" mc="Standard.AssociationEnd" uid="c5ee0489-e35b-4dde-85a8-0c065ca07ebf"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
@@ -453,9 +440,6 @@
             </COMP>
             <COMP relation="Association">
               <COMPID name="" mc="Standard.Association" uid="f1b1a7d6-c098-41f4-8876-ebb8f90dfa2a"/>
-            </COMP>
-            <COMP relation="ConstraintDefinition">
-              <COMPID name="OR" mc="Standard.Constraint" uid="ebf56f6a-fda9-4559-8b4a-1b6a7721a501"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
