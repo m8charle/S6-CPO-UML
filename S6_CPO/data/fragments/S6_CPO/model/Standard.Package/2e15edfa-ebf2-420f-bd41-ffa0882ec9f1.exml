@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="crs" version="4">
+  <OBJECT>
+    <ID name="crs" mc="Standard.Package" uid="2e15edfa-ebf2-420f-bd41-ffa0882ec9f1"/>
+    <PID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[crs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Course" mc="Standard.Class" uid="82fb95b7-9eeb-43f6-855b-cb4d88022921"/>
+        <COMPID name="CourseCategory" mc="Standard.Class" uid="a26fcf0b-7abc-4947-a02b-8f56c0bd2037"/>
+        <COMPID name="CourseInfo" mc="Standard.Class" uid="c5b784e0-66e6-476d-92eb-a7e4add877a6"/>
+        <COMPID name="CourseImage" mc="Standard.Class" uid="8b3463ab-0002-4da9-b6c4-828a75a67c68"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Classes" version="4">
+  <OBJECT>
+    <ID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
+    <PID name="S6_CPO" mc="Standard.Project" uid="616eca4b-ed25-407f-9483-cca33e034764"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Qt" mc="Standard.Package" uid="cb3cbaeb-522d-4a77-8865-ea6f3def4ac6"/>
+        <COMPID name="mkd" mc="Standard.Package" uid="560ad87b-e67c-4ab8-ae67-41e2d9f54342"/>
+        <COMPID name="Qt" mc="Standard.Package" uid="5d95041c-549a-4c01-99ee-a03c7ff1e367"/>
+        <COMPID name="gui" mc="Standard.Package" uid="353f92d1-6598-400e-9dad-421e6d93079d"/>
+        <COMPID name="usr" mc="Standard.Package" uid="716a1c69-f18d-49f8-93fd-7b8d8bc2c168"/>
+        <COMPID name="crs" mc="Standard.Package" uid="2e15edfa-ebf2-420f-bd41-ffa0882ec9f1"/>
+        <COMPID name="local" mc="Standard.Package" uid="cdf2b8ce-31a5-450f-aca1-f0c6f756fa32"/>
+        <COMPID name="Package" mc="Standard.Package" uid="c54589e2-e687-4ee0-885b-fa0a64f486f4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Classes Class diagram" mc="Standard.ClassDiagram" uid="c5e86dbd-e65f-4e69-ac42-c9b1cbe1036b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -12,7 +12,7 @@
       <COMP relation="Model">
         <COMPID name="Use cases" mc="Standard.Package" uid="cc597bbe-9f25-4248-aeb7-6c1c3455f5ef"/>
         <COMPID name="Activity" mc="Standard.Package" uid="7fda9f7a-2273-4752-bf9f-af0bd735957b"/>
-        <COMPID name="Sequence" mc="Standard.Package" uid="dcb8ca53-964e-4b78-9e7a-1e344db4770a"/>
+        <COMPID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="S6_CPO" mc="Infrastructure.DiagramSet" uid="9ed76893-0725-41dd-86af-c76288ae6573"/>

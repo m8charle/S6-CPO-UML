@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Qt" version="4">
+  <OBJECT>
+    <ID name="Qt" mc="Standard.Package" uid="5d95041c-549a-4c01-99ee-a03c7ff1e367"/>
+    <PID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Qt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="QUrl" mc="Standard.Class" uid="9bc40ba7-2ac1-4bcd-95da-4e7e3766dd04"/>
+        <COMPID name="QObject" mc="Standard.Class" uid="62c55177-85b4-4c5b-a662-1a98e18cc718"/>
+        <COMPID name="QWebEngine::NavigationType" mc="Standard.Class" uid="1a528dce-f735-4616-8404-c0d7dffd7817"/>
+        <COMPID name="QWebEngineDownloadItem" mc="Standard.Class" uid="0d976631-1843-4ffc-bfee-a1c582c7ad22"/>
+        <COMPID name="QWebEngineView" mc="Standard.Class" uid="171d0bbc-a7c0-494d-900f-15eaf1b0f055"/>
+        <COMPID name="QWebEnginePage" mc="Standard.Class" uid="5915e6e5-ee76-41f9-a745-0fd40e0021eb"/>
+        <COMPID name="QWebEngineProfile" mc="Standard.Class" uid="035cc2bd-03c8-4ff5-8624-c7f211711010"/>
+        <COMPID name="QMainWindow" mc="Standard.Class" uid="8d76ac77-1a71-4074-ac44-c4fae597be02"/>
+        <COMPID name="QDialogBox" mc="Standard.Class" uid="3c7a9dc6-ee8d-4f26-ba63-6d82a123e60f"/>
+        <COMPID name="QWidget" mc="Standard.Class" uid="86b28014-14ff-4eb5-9141-90f2549dca95"/>
+        <COMPID name="QDate" mc="Standard.Class" uid="c46b1e92-f9f3-4c3c-8f45-22e1640cf483"/>
+        <COMPID name="QSqlQuery" mc="Standard.Class" uid="948be0ec-5acb-4100-95d5-cc8a44b1082a"/>
+        <COMPID name="QProcess" mc="Standard.Class" uid="0f034914-37c6-4845-82a0-13f15bb50267"/>
+        <COMPID name="QSqlTableModel" mc="Standard.Class" uid="079b04e2-bc2d-4e8f-9091-20cac303acce"/>
+        <COMPID name="QList" mc="Standard.Class" uid="6c68f8b6-f712-4aa7-be12-204fa90b74d4"/>
+        <COMPID name="QStringList" mc="Standard.Class" uid="9e263790-b03e-4ba1-8c9e-083ea6a4e08d"/>
+        <COMPID name="QByteArray" mc="Standard.Class" uid="98af98e9-ba9e-4e85-905a-b5aff2f89d09"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

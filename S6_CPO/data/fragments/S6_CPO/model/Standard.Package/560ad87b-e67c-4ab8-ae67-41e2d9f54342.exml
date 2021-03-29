@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mkd" version="4">
+  <OBJECT>
+    <ID name="mkd" mc="Standard.Package" uid="560ad87b-e67c-4ab8-ae67-41e2d9f54342"/>
+    <PID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mkd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MarkdownDocument" mc="Standard.Class" uid="255ba34e-c5ed-43f0-be36-37d67cd9ff3a"/>
+        <COMPID name="MarkdownPage" mc="Standard.Class" uid="c9e39b0e-54e6-4dd8-b85e-06e2446db77d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

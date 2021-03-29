@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="db" version="4">
+  <OBJECT>
+    <ID name="db" mc="Standard.Package" uid="c54589e2-e687-4ee0-885b-fa0a64f486f4"/>
+    <PID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[db]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Class" mc="Standard.Class" uid="d6e57154-a14c-4918-9a3a-ea4dffd4dcc8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

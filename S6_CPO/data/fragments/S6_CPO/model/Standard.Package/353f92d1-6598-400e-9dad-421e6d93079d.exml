@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gui" version="4">
+  <OBJECT>
+    <ID name="gui" mc="Standard.Package" uid="353f92d1-6598-400e-9dad-421e6d93079d"/>
+    <PID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MainWindow" mc="Standard.Class" uid="fe0bfdba-68e5-4193-bd65-04882f2ae554"/>
+        <COMPID name="FoldableMenuBar" mc="Standard.Class" uid="45b4e731-c384-494b-9009-3da39a3b9206"/>
+        <COMPID name="SettingsBox" mc="Standard.Class" uid="32a496be-9d36-4665-b6a6-a632c1e3fd6e"/>
+        <COMPID name="ConnectionBox" mc="Standard.Class" uid="b1a6eb1f-8b94-478b-b87e-58ff474492dc"/>
+        <COMPID name="MarkdownPreview" mc="Standard.Class" uid="ac07f29d-6d0c-4292-8a83-eb3b70e20b44"/>
+        <COMPID name="MarkdownEditor" mc="Standard.Class" uid="eb86bcbf-944c-42b0-a1ed-9f1f04f6e6d2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

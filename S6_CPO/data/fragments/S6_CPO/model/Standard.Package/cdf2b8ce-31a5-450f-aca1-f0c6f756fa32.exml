@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="local" version="4">
+  <OBJECT>
+    <ID name="local" mc="Standard.Package" uid="cdf2b8ce-31a5-450f-aca1-f0c6f756fa32"/>
+    <PID name="Classes" mc="Standard.Package" uid="3d987b1f-6a7a-40a5-bf4d-3b9babd6df6d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[local]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SoftSettings" mc="Standard.Class" uid="3f68748d-e0ad-4588-9cf3-fbf1183ceb23"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
